@@ -1,18 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Vinod's Resume</title>
 </head>
+
 <body>
     <div class="container">
-        <nav id="navigation-bar" class="text-center d-flex flex-direction-col justify-content-center align-item-center">
-            <div class="image-container">
-                <img src="./assets/web-text.jpg">
+        <header id="app-header" class="d-flex align-item-center">
+            <span class="nav-bar-open-btn cursor-pointer" id="navBarOpenBtn">&#9776;</span>
+            <div class="d-flex justify-content-flex-end align-item-center app-header-items">
+                <a href="#home">Home</a>
+                <button id="app-theme-btn" class="btn cursor-pointer"><img id="theme-btn-img" src="./assets/black-theme.svg"></button>
             </div>
-            <ul class="nav-item-list margin-top-20px">
+        </header>
+        <nav id="navigation-bar" class="text-center d-flex flex-direction-col justify-content-center align-item-center">
+            <a href="javascript:void(0)" class="nav-bar-close-btn" id="navBarCloseBtn">&times;</a>
+            <ul id="nav-items" class="nav-item-list margin-top-20px">
                 <li class="list-item"><a href="#about">About</a></li>
                 <li class="list-item"><a href="#experince">Experince</a></li>
                 <li class="list-item"><a href="#projects">Projects</a></li>
@@ -23,6 +30,12 @@
             </ul>
         </nav>
         <main class="content-fluid">
+            <section id="home">
+                <h2>Home</h2>
+                <div class="image-container">
+                    <img src="./assets/web-text.jpg">
+                </div>
+            </section>
             <section id="about">
                 <h2>About</h2>
             </section>
