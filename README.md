@@ -1,4 +1,2 @@
 # Resume Website
-Resume Website using HTML, CSS
-
-Inspired By https://startbootstrap.com/ resume.
+Resume Website using HTML, CSS and JavaScript.
