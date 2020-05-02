@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Vinod's Resume</title>
+    <link rel="icon" href="./assets/favicon.ico">
+    <title>Vinod Desai - Software Developer</title>
 </head>
 
 <body>
@@ -14,7 +15,8 @@
             <span class="nav-bar-open-btn cursor-pointer" id="navBarOpenBtn">&#9776;</span>
             <div class="d-flex justify-content-flex-end align-item-center app-header-items">
                 <a href="#home">Home</a>
-                <button id="app-theme-btn" class="btn cursor-pointer"><img id="theme-btn-img" src="./assets/black-theme.svg"></button>
+                <button id="app-theme-btn" class="btn cursor-pointer outline-none"><img id="theme-btn-img"
+                        src=""></button>
             </div>
         </header>
         <nav id="navigation-bar" class="text-center d-flex flex-direction-col justify-content-center align-item-center">
@@ -29,11 +31,23 @@
                 <li class="list-item"><a href="#awards">Awards</a></li>
             </ul>
         </nav>
+        <div id="scroll-top-link" class="d-none">
+            <a href="#home"><img id="scroll-top-img" src="" alt=""></a>
+        </div>
         <main class="content-fluid">
-            <section id="home">
-                <h2>Home</h2>
+            <section id="home" class="d-flex flex-direction-col justify-content-center align-item-center">
+                <!-- <h2>Home</h2>
                 <div class="image-container">
                     <img src="./assets/web-text.jpg">
+                </div> -->
+                <h1>Vinod Desai</h1>
+                <h3><span class="txt-type" data-wait="3000"
+                        data-words='["Web Developer", "Web Designer", "Tech Enthusiast", "Proud Indian"]'></span>
+                </h3>
+                <div class="social-media-links d-flex justify-content-center align-item-center margin20px">
+                    <a href="https://in.linkedin.com/in/vinoddesai147/" title="LinkedIn" target="_blank" rel="noopener noreferrer"><img src="./assets/LinkedIn.svg" alt="LinkedIn"></a>
+                    <a href="https://github.com/vinod-desai/" title="GitHub" target="_blank" rel="noopener noreferrer"><img src="./assets/GitHub.svg" alt="GitHub"></a>
+                    <a href="" title="Email" target="_blank" rel="noopener noreferrer"><img src="./assets/Email.svg" alt="Mail"></a>
                 </div>
             </section>
             <section id="about">
@@ -60,6 +74,7 @@
         </main>
     </div>
     <script src="main.js"></script>
+    <script src="home.js"></script>
 </body>
 
 </html>
