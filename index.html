@@ -36,44 +36,68 @@
         </div>
         <main class="content-fluid">
             <section id="home" class="d-flex flex-direction-col justify-content-center align-item-center">
-                <!-- <h2>Home</h2>
-                <div class="image-container">
-                    <img src="./assets/web-text.jpg">
-                </div> -->
-                <h1>Vinod Desai</h1>
-                <h3><span class="txt-type" data-wait="3000"
-                        data-words='["Web Developer", "Web Designer", "Tech Enthusiast", "Proud Indian"]'></span>
-                </h3>
+                <h2>Hello,</h2>
+                <h3>I am Vinod, A full-stack developer.</h3>
+                <h4 class="margin-top-20px">I am a <span class="txt-type" data-wait="3000"
+                        data-words='["Web Developer", "Web Designer", "Tech Enthusiast", "Time Pass Chef :)",  "Marathon Runner"]'>
+                    </span>
+                </h4>
                 <div class="social-media-links d-flex justify-content-center align-item-center margin20px">
-                    <a href="https://in.linkedin.com/in/vinoddesai147/" title="LinkedIn" target="_blank" rel="noopener noreferrer"><img src="./assets/LinkedIn.svg" alt="LinkedIn"></a>
-                    <a href="https://github.com/vinod-desai/" title="GitHub" target="_blank" rel="noopener noreferrer"><img src="./assets/GitHub.svg" alt="GitHub"></a>
-                    <a href="" title="Email" target="_blank" rel="noopener noreferrer"><img src="./assets/Email.svg" alt="Mail"></a>
+                    <a href="https://in.linkedin.com/in/vinoddesai147/" title="LinkedIn" target="_blank"
+                        rel="noopener noreferrer"><img src="./assets/LinkedIn.svg" alt="LinkedIn"></a>
+                    <a href="https://github.com/vinod-desai/" title="GitHub" target="_blank"
+                        rel="noopener noreferrer"><img src="./assets/GitHub.svg" alt="GitHub"></a>
+                    <a href="" title="Email" target="_blank" rel="noopener noreferrer"><img src="./assets/Email.svg"
+                            alt="Mail"></a>
                 </div>
             </section>
-            <section id="about">
-                <h2>About</h2>
+            <section id="about" class="resume-section d-flex flex-direction-col justify-content-center">
+                <div class="d-flex">
+                    <div class="avatar-container margin-right-20px">
+                        <img src="./assets/web-text.jpg">
+                    </div>
+                    <div class="address-container">
+                        <h2>Vinod Desai</h2>
+                        <div class="address margin-top-20px margin-bottom-20px">
+                            <span class="city">Bengaluru, Karnataka, India, 560103</span>
+                            <span class="email"><a href="mailto:vinodd147@gmail.com">vinodd147@gmail.com</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-me margin-top-20px margin-bottom-20px">
+                    <p>A Software Engineer with a demonstrated history of working in the information technology and
+                        services industry. Skilled in front end technologies(HTML, CSS, JavaScript, Angular,
+                        JQuery, Bootstrap, SCSS), middleware ( C#, NodeJS) and backend technologies (SQL - Oracle,
+                        SQL Server, DB2).</p>
+                    <p>I have experince of designing web application from creating prototypes using Adobe XD create
+                        design tool and HTML, CSS, JS to deploying it on Microsoft Azure Servers.</p>
+                    <p>I have experince in writing Unit Tests using test frameworks and tools (Jasmine, Karma, MS Test)
+                        with good test coverage and deliver high quality applications.</p>
+                </div>
             </section>
-            <section id="experince">
+            <section id="experince" class="resume-section d-flex flex-direction-col justify-content-center">
                 <h2>Experince</h2>
+                <div id="resume-experinece-items"></div>
             </section>
-            <section id="projects">
+            <section id="projects" class="resume-section d-flex flex-direction-col justify-content-center">
                 <h2>Projects</h2>
             </section>
-            <section id="education">
+            <section id="education" class="resume-section d-flex flex-direction-col justify-content-center">
                 <h2>Education</h2>
+                <div id="resume-education-items"></div>
             </section>
-            <section id="skills">
+            <section id="skills" class="resume-section d-flex flex-direction-col justify-content-center">
                 <h2>Skills</h2>
             </section>
-            <section id="interests">
+            <section id="interests" class="resume-section d-flex flex-direction-col justify-content-center">
                 <h2>Interests</h2>
             </section>
-            <section id="awards">
+            <section id="awards" class="resume-section d-flex flex-direction-col justify-content-center">
                 <h2>Awards</h2>
             </section>
         </main>
     </div>
-    <script src="main.js"></script>
+    <script type="module" src="main.js"></script>
     <script src="home.js"></script>
 </body>
 
