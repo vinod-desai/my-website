@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 html {
     scroll-behavior: smooth;
@@ -11,14 +12,15 @@ html {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
     background-color: #fff;
 }
 
 .container {
     /* margin-top: 3.5rem; */
     transition: margin-left .5s;
-    overflow-x: auto;
+    overflow-x: hidden;
 }
 
 /* .content-fluid {
@@ -27,7 +29,7 @@ body {
 
 .content-fluid section {
     min-height: 100vh;
-    padding: 0.2rem 1.5rem;
+    padding: 0.5rem 2rem;
     border-bottom: 1px solid rgba(0,0,0,.1);
 }
 
@@ -58,7 +60,21 @@ h1 {
 h3 {
     font-size: 3rem;
     font-weight: 500;
+    letter-spacing: 0.05rem;
+    /* color: #505050; */
+}
+
+h4 {
+    font-size: 2.5rem;
+    font-weight: 200;
     letter-spacing: 0.1rem;
+    /* color: rgba(0,0,0,0.9); */
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.75rem;
+    
 }
 
 .image-container img {
@@ -107,6 +123,10 @@ h3 {
     text-align: center;
 }
 
+.text-primary {
+    color: #bd5d38;
+}
+
 .cursor-pointer {
     cursor: pointer;
 }
@@ -121,6 +141,14 @@ h3 {
 
 .margin-top-20px {
     margin-top: 20px;
+}
+
+.margin-right-20px {
+    margin-right: 20px;
+}
+
+.margin-bottom-20px {
+    margin-bottom: 20px;
 }
 
 #app-header {
@@ -225,4 +253,38 @@ h3 {
 .social-media-links img {
     width: 2rem;
     height: 2rem;
+}
+
+.avatar-container img {
+    border-radius: 50%;
+}
+
+.address {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.address .city {
+    text-transform: uppercase;
+}
+
+.address .email {
+    text-transform: lowercase;
+    text-decoration: underline;
+}
+
+.resume-item .resume-content {
+    width: 65rem;
+}
+
+.resume-item .resume-date {
+    width: 15rem;
+}
+
+.resume-content h3 {
+    font-size: 2.5rem;
+}
+
+.resume-content h4 {
+    font-size: 2rem;
 }
